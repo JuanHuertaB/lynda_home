@@ -1,0 +1,59 @@
+body,
+html {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+section{
+  background: url("https://a0.muscache.com/im/pictures/79335a79-379b-444b-8d52-251e89b378b9.jpg?aki_policy=large");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+header{
+  background-image: linear-gradient(to bottom,rgba(0, 0,0,0.5),rgba(0, 0,0,0)) ; 
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  ul{
+    list-style: none;
+    position: absolute;
+    right: 0;
+    li{
+      color: #fff;
+      width: auto;
+      float: left;
+      font-weight: 600;
+      padding: 0 20px;
+    }
+
+  }
+}
+
+div{
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -150px;
+}
+  input{
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    border-radius: 25px;
+    border: none;
+  }
+  h1{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 300;
+  }
